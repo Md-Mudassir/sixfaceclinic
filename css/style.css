@@ -559,7 +559,7 @@ a:focus {
 
 @media (max-width: 768px) {
   .banner .block h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     line-height: 3rem;
   }
   .banner {
@@ -984,6 +984,10 @@ a:focus {
   }
   .testimonial::before {
     display: none;
+  }
+
+  .backtop {
+    right: 8%;
   }
 }
 
@@ -1507,7 +1511,7 @@ a:focus {
   background: #223a66;
   z-index: 9999;
   display: inline-block;
-  right: 8%;
+  right: 5%;
   width: 60px;
   height: 60px;
   bottom: 50px;
